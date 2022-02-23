@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my awesome portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="continer">
+        <nav>
+            <div class="navbar">
+
+                <div id="logo">
+                    <p>
+                        my awesome portfolio
+                    </p>
+                </div>
+
+                <ul>
+                    <li> <a href="#head"> Home</a> </li>
+                    <li> <a href="#footer">about</a> </li>
+                    <li> <a href="#project">my project</a> </li>
+                    <li><a href="#skill-section"> my skill </a></li>
+
+                </ul>
+                    <a href="#" id="btn" onclick = "myfun();" >
+                        contact me
+                    </a>
+            </div>
+           
+        </nav>
+<section id="slider">
+      
+            <a href=" " id="crosBTN" onclick="close();"> &times;</a>
+            <a href="https://myaccount.google.com/profile">Email me </a>
+            <a href="https://www.linkedin.com/in/hamid-raza-847997221/">linked in </a>
+            <a href="#">call me </a>
+            <p style="color: aliceblue;">6393696613</p>
+            <a href="#">let`s chat with me </a>
+            <p>watsapp 6393696613 </p>
+        
+    </section>
+
+
+        <section id="head">
+            <h1>
+                MY PORTFOLIO
+            </h1>
+
+            <article>
+                <img id="photo" src="ha2.png" alt="">
+                <div class="para">
+                    <h2>ABOUT ME</h2>
+                    <p>My name is Hamid Raza and Currently i am pursuing BCA from Gorakhpur University and I
+                        have also done separate html,css and javaScript for frontend and php for backend
+                        , with the help of which I have also made some project If you want to see then <a
+                            href="#project">click</a> on click button.
+                        And I am looking for an internship to increase my knowledge, if you have any opportunity for
+                        me then please contact me </p>
+                </div>
+            </article>
+        </section>
+
+
+
+
+        <section class="cv">
+
+            <p>For more information about me <button> <a href="CV_HAMID_RAZA.pdf" download="HAMID RAZA">Download CV </button>  </a> </p>
+        </section>
+
+
+
+
+
+        <section id="project">
+
+            <h1> MY PROJECT</h1>
+
+            <article class="p1">
+                <h3>FITNESS POINT </h3><a href=""><a href=" https://hamidraza97.github.io/fitness-points/">
+                <img src="firstPROJECT.png" alt=""></a>
+                <p>This is my first website and I made it for my friend's gym. We used to go to him sometimes and
+                    see that he always used
+                    to write something in the copy, which he did not like at all,
+                    so for that I have made this website, if you want to see then click on the given link.</p>
+
+            </article>
+            <article class="p1">
+                <h3>(GOS) Gow Ki Online Shopping </h3><a href="https://hamidraza97.github.io/-GOS-gow-li-online-shopping/">
+                <img src="secondPRO.png" alt=""> </a>
+                <p>This is my second website and I have made it for the convenience of the villagers. If you want to
+                    see click on the screen and !!!!THIS IS MY MAIN WEBSITE!!!!  </p>
+
+            </article>
+            <article class="p1"><a href="https://hamidraza97.github.io/Clock-in-javaScript/">
+                <h3>clock in javaScript </h3>
+                <img src="project3.png" alt=""></a>
+                <p>In this we have made a simple website with the help of javaScript which tells the standard time of indai.
+                </p>
+
+            </article>
+
+        </section>
+
+
+        <section id="skill-section" >
+
+            <div class="skill">
+
+                <h1>
+                    MY SKILL
+                </h1>
+                <div class="skill-bar">
+                    <div class="bar">
+                        <div class="info">
+                            <span>HTML</span>
+
+                        </div>
+                        <div class="progress-line html"><span></span></div>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <div class="bar">
+                        <div class="info">
+                            <span>CSS</span>
+
+                        </div>
+                        <div class="progress-line css"><span></span></div>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <div class="bar">
+                        <div class="info">
+                            <span>javaScript</span>
+
+                        </div>
+                        <div class="progress-line javaScript"><span>learning</span></div>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <div class="bar">
+                        <div class="info">
+                            <span>PHP</span>
+
+                        </div>
+                        <div class="progress-line php"><span>learning</span></div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </section>
+        </header>
+
+    </div>
+
+    <script>
+       var slider = document.getElementById('slider');
+
+       function myfun()
+       {
+           slider.style.width = "320px";
+       }
+       function close ()
+       {
+           slider.style.width = "0px";
+       }
+
+    </script>
+     
+
+
+     
+
+     <footer  class="f"  id="footer">
+        <div class="content">
+          <div class="top">
+            <div class="logo-details">
+              <i class="fab fa-slack"></i>
+              <span class="logo_name">HR CodingLab</span>
+            </div>
+            <div class="media-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+           <div class="link-boxes">
+            <ul class="box">
+              <li class="link_name">Company</li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Contact us</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Get started</a></li>
+            </ul>
+            <ul class="box">
+              <li class="link_name">Services</li>
+              <li><a href="#">App design</a></li>
+              <li><a href="#">Web design</a></li>
+              <li><a href="#">Logo design</a></li>
+              <li><a href="#">Banner design</a></li>
+            </ul>
+            <ul class="box">
+              <li class="link_name">Account</li>
+              <li><a href="#">Profile</a></li>
+              <li><a href="#">My account</a></li>
+              <li><a href="#">Prefrences</a></li>
+              <li><a href="#">Purchase</a></li>
+            </ul>
+            <ul class="box">
+              <li class="link_name">Courses</li>
+              <li><a href="#">HTML & CSS</a></li>
+              <li><a href="#">JavaScript</a></li>
+              <li><a href="#">Photography</a></li>
+              <li><a href="#">Photoshop</a></li>
+            </ul>
+            <ul class="box input-box">
+              <li class="link_name">Subscribe</li>
+              <li><input type="text" placeholder="Enter your email"></li>
+              <li><input type="button" value="Subscribe"></li>
+            </ul>
+          </div>
+        </div>
+        <div class="bottom-details">
+          <div class="bottom_text">
+            <span class="copyright_text">Copyright © 2022 <a href="#"> HR CodingLab.</a>All rights reserved</span>
+            <span class="policy_terms">
+              <a href="#">Privacy policy</a>
+              <a href="#">Terms & condition</a>
+            </span>
+          </div>
+        </div>
+     </footer>
+
+</body>
+
+</html>
